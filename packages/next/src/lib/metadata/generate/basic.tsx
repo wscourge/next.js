@@ -170,6 +170,7 @@ export function VerificationMeta({
   if (!verification) return null
 
   return MetaFilter([
+    MultiMeta({ namePrefix: 'msvalidate.01', contents: verification.bing }),
     MultiMeta({
       namePrefix: 'google-site-verification',
       contents: verification.google,

@@ -354,6 +354,7 @@ createNextDescribe(
         const $ = await next.render$('/verification')
         const matchMultiDom = createMultiHtmlMatcher($)
         await matchMultiDom('meta', 'name', 'content', {
+          'msvalidate.01': 'bing',
           'google-site-verification': 'google',
           y_key: 'yahoo',
           'yandex-verification': 'yandex',

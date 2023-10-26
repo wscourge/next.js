@@ -178,7 +178,7 @@ export const resolveRobots: FieldResolver<'robots'> = (robots) => {
   }
 }
 
-const VerificationKeys = ['google', 'yahoo', 'yandex', 'me', 'other'] as const
+const VerificationKeys = ['bing', 'google', 'yahoo', 'yandex', 'me', 'other'] as const
 export const resolveVerification: FieldResolver<'verification'> = (
   verification
 ) => {

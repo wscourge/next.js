@@ -4,6 +4,7 @@ export default function page() {
 
 export const metadata = {
   verification: {
+    bing: 'bing',
     google: 'google',
     yandex: 'yandex',
     yahoo: 'yahoo',
